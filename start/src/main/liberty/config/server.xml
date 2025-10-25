@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="new server">
+
+    <featureManager>
+        <platform>jakartaee-10.0</platform>
+        <feature>servlet</feature>
+        <feature>springBoot-3.0</feature>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint"
+                  host="*"
+                  httpPort="9080"
+                  httpsPort="9443" />
+
+    <springBootApplication id="guide-spring-boot" 
+                           location="thin-guide-spring-boot-0.1.0.jar"
+                           name="guide-spring-boot" />
+
+</server>
